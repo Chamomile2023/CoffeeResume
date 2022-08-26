@@ -1,0 +1,41 @@
+@mixin button--link{
+    font-family: $Josefin;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: $white_color;
+}
+@mixin button{
+    background: #2D635E;
+    mix-blend-mode: normal;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    border: none;
+    &:hover{
+        background-color: #319f94;
+    }
+}
+@mixin text--title{
+    font-family: $Josefin;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 38px;
+    color: $black_color;
+}
+@mixin text--text{
+    font-family: $Alegreya;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 36px;
+    letter-spacing: 0.001em;
+    color: $footer_color;
+}
+@mixin vertical--word{
+    font-family: $Cedarville;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 53px;
+    color: $black_color;
+    opacity: 0.75;
+    transform: rotate(-90deg);
+}
